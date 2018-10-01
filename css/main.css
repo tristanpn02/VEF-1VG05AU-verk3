@@ -1,0 +1,190 @@
+/* Whole page */
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+    max-width: 90%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Navbar */
+
+nav {
+    color: white;
+    background-color: #383737;
+    position: fixed;
+    width: 90%;
+    height: 40px;
+    top: 10px;
+}
+
+nav h1 {
+    margin-left: 10vh;
+    margin-top: 10px;
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+}
+
+nav a {
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #383737;
+    color: white;
+    padding: 0.3em;
+    padding-left: 2em;
+    font-size: 1.2em;
+    font-family: "Trebuchet";
+}
+
+/* Links */
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:visited {
+    color: mediumpurple !important;
+}
+
+a:hover {
+    color: darkgray !important;
+}
+
+a:active {
+    color: dimgray !important;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #383737;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #999;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
+
+/* Various tags */
+
+pre {
+    color: darkred;
+    font-size: 1.5em;
+}
+
+em {
+    color: darkred;
+}
+
+img {
+    display: block;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    text-align: center;
+    background-color: whitesmoke;
+    font-size: 1.1em !important;
+}
+
+/* Fonts */
+
+.new-roman {
+    font-family: "Times New Roman", serif;
+}
+
+.arial-sans {
+    font-family: "Arial", sans-serif;
+}
+
+.courier-monotype {
+    font-family: "Courier", monospace
+}
+
+.georgia {
+    font-family: "Georgia";
+}
+
+.trebuchet-ms {
+    font-family: "Trebuchet MS"
+}
+
+.arial-black {
+    font-family: "Arial Black"
+}
+
+.palatino-lino {
+    font-family: "Palatino Linotype"
+}
+
+/* Grid */
+
+.grid-container {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.grid-container div,
+.grid-container section {
+    padding: 10px;
+    border: solid 1px;
+    font-size: 1em;
+}
+
+.row-2 {
+    display: grid;
+    grid-template-columns: auto auto !important;
+    grid-auto-flow: row !important;
+}
+
+.navbar {
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    padding: 1em;
+    background-color: #383737;
+    font-size: 1.2em;
+}
+
+.bigcolumn {
+    grid-column: 2 / 10;
+}
+
+/* Various Classes */
+
+.workHead {
+    border-bottom: 2px solid;
+    background-color: whitesmoke;
+}
+
+.small-text {
+    font-size: 0.7em;
+    line-height: 1.6em;
+}
+
+.impact-poster {
+    font-family: "Impact";
+    text-align: center;
+    font-size: 3em;
+    background-color: darkseagreen;
+}

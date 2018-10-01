@@ -1,0 +1,55 @@
+/* Whole Page */
+body {
+    font-family: sans-serif;
+}
+
+.wrap {
+    background-color: #eaeaea;
+}
+
+/* Page Header */
+
+.pagehead {
+    font-family: 'Fira Mono', monospace;
+    background-image: url(https:infowars.com/wp-content/themes/infowars-sitegoals/images/backing.png);
+    background-color: skyblue;
+    color: white;
+    font-size: 1.5em !important;
+    text-align: left;
+    height: 4.9em;
+}
+
+.pagehead #jones {
+    font-family: 'Poiret One', cursive;
+}
+
+.pagehead h1 {
+    margin-left: 2em;
+    float: left;
+}
+
+.pagehead img {
+    float: right;
+    grid-column: 4;
+    height: 96%;
+}
+
+/* Links */
+
+.wrap a {
+    color: black;
+    text-decoration: underline;
+}
+
+/* Navbar Page */
+
+.navbar {
+    background-color: white;
+}
+
+/* Various Tags */
+
+hr {
+    position: absolute;
+    width: 90%;
+}

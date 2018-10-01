@@ -1,0 +1,39 @@
+/* Whole Page */
+
+body {
+    font-family: sans-serif;
+    background-image: url(https:/i.ytimg.com/vi/8e_T-rHo5cw/maxresdefault.jpg);
+    background-size: cover;
+}
+
+.wrap {
+    background-color: #000000ad;
+    color: white;
+}
+
+/* Page Header */
+
+.pagehead h1 {
+    font-size: 3em;
+}
+
+.pagehead {
+    background-color: #0000008a;
+    color: white;
+}
+
+.pagehead p {
+    margin-top: -2em;
+}
+
+/* Various Classes */
+
+.vid {
+    width: 500px;
+    height: 280px;
+}
+
+.lyrics {
+    height: 450px;
+    overflow-x: scroll;
+}
